@@ -22,10 +22,6 @@ After cloning, run:
 composer install
 ```
 
-```bash
-npm install
-```
-
 Duplicate `.env.example` and rename it `.env`
 
 Then run:
@@ -48,7 +44,7 @@ And finally, start the application:
 php artisan serve
 ```
 
-and visit [http://localhost:8000](http://localhost:8000) to see the application in action.
+and visit [http://localhost:8000](http://localhost:8000) to see the application in action. Login using email address: admin@admin.com and password: admin123
 
 ## Built With
 
