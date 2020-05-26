@@ -1,0 +1,3 @@
+2019-07-12 09:46- https://sms.contitouch.co.zw/api.json?cmd=send&username=hrsystem&password=%24hr_system123&senderid=Contitouch&gsm=263773842783&msg=Happy+birthday+John+Chimuti
+2019-07-12 09:55- https://sms.contitouch.co.zw/api.json?cmd=send&username=hrsystem&password=%24hr_system123&senderid=Contitouch&gsm=263773842783&msg=Contitouch+Technologies+wishes+a+Happy+birthday+filled+with+joy.+Enjoy+your+day+John+Chimuti
+2019-07-12 10:21- https://sms.contitouch.co.zw/api.json?cmd=send&username=hrsystem&password=%24hr_system123&senderid=Contitouch&gsm=263773842783&msg=Contitouch+Technologies+wishes+a+Happy+birthday+filled+with+joy.+Enjoy+your+day+John+Chimuti.

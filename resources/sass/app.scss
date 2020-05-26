@@ -1,0 +1,12 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/dist/css/bootstrap.css';
+
+$fa-font-path: "../fonts/" !default;
+@import "~font-awesome/scss/font-awesome";
+
