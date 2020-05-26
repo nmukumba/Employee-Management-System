@@ -20,12 +20,12 @@ class DatabaseSeeder extends Seeder
             'created_at' => Carbon::now()
         ]);
         DB::table('users')->insert([
-            'name' => 'Norest Mukumba',
-            'email' => 'norestmukumba@gmail.com',
-            'phone' => '0773843783',
+            'name' => 'System Admin',
+            'email' => 'admin@admin.com',
+            'phone' => '0777111222',
             'user_type_id' => 1,
             'created_at' => Carbon::now(),
-            'password' => Hash::make('norest123'),
+            'password' => Hash::make('admin123'),
         ]);
     }
 }
