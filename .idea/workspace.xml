@@ -1,43 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55a2225c-c81b-47ac-b92e-4df5ea728034" name="Default Changelist" comment="created crud functionality for most of the components.">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cd515a9d32877cbf4c1e00616ce5ebdc73ea762" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/383513b34816d8c2d830ad14a614661ab6a14c1d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48b8d8112e9bdd32ee7e25b1224d6739eece1e72" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5cf93720f3ac3306ee1b5350db963d522d71a73b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d80af2c8eccc15fa62a616067d4270df372f87d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/8319b6740be2d6e511efba703d9d11f9f1fb5e90" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99868bb73b213f63c91bc1789fb17fdcabbb5be9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bf3ef0ef17d25778e50a9e7458a5cd2acf47a76" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a95c9b5cb25c26491ce8ba778e36ac1958bcd437" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c80619cd395b82ab94399281de42eec7c7a71e86" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb7364d21a4c60b0cf1d5a5240236b9f463c4a81" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4dae00d11854b35292c2b8a30515a9a0aa2d871" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f71b3ca2f10836ba41548f4c06a9db7818b7ffe0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff74a5b36a2683ae091612a218e393fc5bfa4e24" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HRSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HRSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="55a2225c-c81b-47ac-b92e-4df5ea728034" name="Default Changelist" comment="update to laravel 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserTypesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserTypesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_22_084101_create_vacancies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_08_22_084101_create_vacancies_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,6 +223,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -290,7 +257,7 @@
       <workItem from="1630398069079" duration="4324000" />
       <workItem from="1633439716234" duration="1002000" />
       <workItem from="1633499287086" duration="8932000" />
-      <workItem from="1633937678669" duration="12628000" />
+      <workItem from="1633937678669" duration="13654000" />
     </task>
     <task id="LOCAL-00001" summary="created crud functionality for most of the components.">
       <created>1561034623574</created>
@@ -299,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561034623574</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update to laravel 7">
+      <created>1633951144271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633951144271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -347,7 +321,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created crud functionality for most of the components." />
-    <option name="LAST_COMMIT_MESSAGE" value="created crud functionality for most of the components." />
+    <MESSAGE value="update to laravel 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to laravel 7" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
