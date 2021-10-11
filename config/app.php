@@ -161,8 +161,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
-        Barryvdh\Cors\ServiceProvider::class,
+        //Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
+        //Barryvdh\Cors\ServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -175,10 +175,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        ConsoleTVs\Charts\ChartsServiceProvider::class,
-        gfazioli\Morris\MorrisServiceProvider::class,
+//        ConsoleTVs\Charts\ChartsServiceProvider::class,
+//        gfazioli\Morris\MorrisServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
-        
+
     ],
 
     /*

@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -37,7 +38,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function userType(){
+    public function userType(): HasOne
+    {
         return $this->hasOne(UserType::class);
     }
 

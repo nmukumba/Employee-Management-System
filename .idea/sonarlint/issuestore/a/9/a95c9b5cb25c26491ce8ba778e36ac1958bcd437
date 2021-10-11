@@ -1,0 +1,16 @@
+
+`	php:S1192w"KDefine a constant instead of duplicating this literal "/employee/" 3 times.(»£ºá
+_	php:S1192w"JDefine a constant instead of duplicating this literal "/view?id=" 3 times.(»£ºá
+E	php:S1481Q"0Remove this unused "$image_type" local variable.(§ëä©
+C	php:S1481m".Remove this unused "$employee" local variable.(ð©þÃ
+I	php:S1481‰".Remove this unused "$employee" local variable.(ˆ¦ðÔûÿÿÿÿ
+3php:S125"Remove this commented out code.(‰úÃü
+8php:S125X"Remove this commented out code.(Ïè†»ùÿÿÿÿ
+9php:S125¤"Remove this commented out code.(ªñ«Æùÿÿÿÿ
+9php:S125«"Remove this commented out code.(¼ìž…úÿÿÿÿ
+4php:S125º"Remove this commented out code.(²”§Ù
+9php:S125Ì"Remove this commented out code.(ÖéÝºÿÿÿÿÿ
+4php:S125Î"Remove this commented out code.(‘ã¥Í
+4php:S125Ô"Remove this commented out code.(Ù±ÆÉ
+9php:S125í"Remove this commented out code.(Òúšùüÿÿÿÿ
+9php:S125Š"Remove this commented out code.(‹×ÃÅýÿÿÿÿ

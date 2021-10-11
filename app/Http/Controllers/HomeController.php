@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Employee;
+use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\DB;
@@ -23,9 +24,9 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Contracts\Support\Renderable
+     * @return Renderable
      */
-    public function index()
+    public function index(): Renderable
     {
         $current_employees = DB::table('employees')->where('status', 'Active')->count();
         $ex_employees = DB::table('employees')->where('is_deleted', 1)->count();
@@ -37,7 +38,6 @@ class HomeController extends Controller
                             WHERE contracts.status = 'Active'
                             GROUP BY contracts.id
                             ORDER BY count DESC");
-        //dd($data);
 
         return view('home', compact('current_employees', 'ex_employees', 'companies', 'users', 'data'));
     }

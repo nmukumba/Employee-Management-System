@@ -6,6 +6,7 @@ use App\UserType;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 use DB;
+use Illuminate\View\View;
 
 class UserTypesController extends Controller
 {
@@ -66,4 +67,5 @@ class UserTypesController extends Controller
             ->update(['is_deleted' => 1, 'updated_at' => Carbon::now()]);
         return redirect("/user/types");
     }
+
 }

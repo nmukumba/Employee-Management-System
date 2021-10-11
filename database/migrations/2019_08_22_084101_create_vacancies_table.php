@@ -17,6 +17,7 @@ class CreateVacanciesTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('department_id');
             $table->unsignedBigInteger('company_id');
+            $table->unsignedBigInteger('job_category_id');
             $table->string('title');
             $table->string('description');
             $table->date('closing_date');

@@ -2,7 +2,12 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\CheckForMaintenanceMode;
+use App\Http\Middleware\TrimStrings;
+use App\Http\Middleware\TrustProxies;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull;
+use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
 
 class Kernel extends HttpKernel
 {
@@ -14,12 +19,11 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
-        \App\Http\Middleware\CheckForMaintenanceMode::class,
-        \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
-        \App\Http\Middleware\TrimStrings::class,
-        \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
-        \App\Http\Middleware\TrustProxies::class,
-        \Barryvdh\Cors\HandleCors::class,
+        CheckForMaintenanceMode::class,
+        ValidatePostSize::class,
+        TrimStrings::class,
+        ConvertEmptyStringsToNull::class,
+        TrustProxies::class,
     ];
 
     /**
@@ -61,7 +65,6 @@ class Kernel extends HttpKernel
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
-        'cors' => \Barryvdh\Cors\HandleCors::class,
     ];
 
     /**

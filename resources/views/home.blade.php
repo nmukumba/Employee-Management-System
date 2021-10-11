@@ -92,7 +92,7 @@
                   <div class="chart">
                     <canvas id="barChart" style="height:300px"></canvas>
                   </div>
-                  
+
                 </div>
                 <!-- /.chart-responsive -->
               </div>
@@ -169,7 +169,7 @@
             <div class="chart">
               <canvas id="age" style="height:300px"></canvas>
             </div>
-            
+
           </div>
           <!-- /.box-body -->
         </div>
@@ -204,7 +204,7 @@
             <div class="chart">
               <canvas id="roles" style="height:300px"></canvas>
             </div>
-            
+
           </div>
           <!-- /.box-body -->
         </div>
